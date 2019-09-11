@@ -1,2 +1,3 @@
-# angular-router
-关于angular5路由
+#angular5-router
+
+#父子路由、路由守卫、辅助路由

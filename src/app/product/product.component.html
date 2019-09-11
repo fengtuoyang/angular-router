@@ -1,0 +1,14 @@
+<div class="product">
+  <p>
+    这里是商品信息组件
+  </p>
+  <p>
+    从home页面获取到的商品id是{{productId}}
+  </p>
+  <p>
+    从home页面获取到的商品name是{{productName}}
+  </p>
+  <a [routerLink]="['./']">商品信息</a>
+  <a [routerLink]="['./seller',123456]">销售员信息</a>
+  <router-outlet></router-outlet>
+</div>
